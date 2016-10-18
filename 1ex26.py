@@ -1,3 +1,6 @@
+
+import ex25
+
 def break_words(stuff):
     """This function will break up words for us."""
     words = stuff.split(' ')
@@ -75,10 +78,10 @@ print "We'd have %d beans, %d jars, and %d crabapples." % (secret_formula(start_
 
 sentence = "All good things come to those who weight."
 
-# words = ex25.break_words(sentence)
-# sorted_words = ex25.sort_words(words)
-words = break_words(sentence)
-sorted_words = sort_words(words)
+words = ex25.break_words(sentence)
+sorted_words = ex25.sort_words(words)
+# words = break_words(sentence)
+# sorted_words = sort_words(words)
 
 print_first_word(words)
 print_last_word(words)
