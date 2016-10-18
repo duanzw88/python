@@ -3,8 +3,7 @@
 #加载sys模块
 from sys import argv
 
-script = "ss"
-user_name,family = argv
+script = user_name,family = argv
 prompt = 'input:>'
 
 print "Hi %s,I'm the %s(%s) script." % (user_name,family,script)
