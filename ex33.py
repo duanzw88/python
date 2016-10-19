@@ -14,6 +14,10 @@ def check_while(size):
         print "At the bottom i is %d" % i
 
 check_while(10);
-print "The numbers:"
+print "The numbers(length = %d):" % len(numbers)
 for num in numbers:
     print num
+i = 0;
+while i < len(numbers):
+    print "numbers[%d] = %d" % (i,numbers[i])
+    i = i + 1;
