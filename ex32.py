@@ -22,7 +22,6 @@ elements = [0,2,4,6,8,10]
 for element in elements:
     print "---------------"
     print "Element was:%d" % element
-
     print "--------------\n\n"
 
 # datas = range(0,10)
